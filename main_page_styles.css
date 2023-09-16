@@ -97,3 +97,6 @@ header>p{
 .border {
 	outline: 1px solid black;
 }
+.links-list>li>a:hover {
+        color: red;
+}
