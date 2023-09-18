@@ -1,0 +1,84 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	font-size: 3vmin;
+}
+div {
+	outline: 1px solid black;
+}
+
+
+.header>h3{
+	grid-area: h3;	
+	border: 1px solid black;
+	background-color: white;
+	min-width: 200px;
+	padding: 5px;
+	text-align: right;
+	block-size: fit-content;
+}
+.header>p{
+	grid-area: p;
+	font-size: 2.25vmin;
+}
+.header {
+	grid-area: header;
+    background-color: rgb(198, 217, 241);
+    padding: 0 16px;
+    display: grid;
+    grid: auto;
+    gap: 0 16px;
+    grid-template-areas: 'h3 p p p p';
+    align-content: center;
+}
+
+
+.item_2 {
+	grid-area: item_2;
+	background-color: rgb(253, 233, 217);
+}
+.item_3 {
+	grid-area: item_3;
+	background-color: white;
+}
+.item_4 {
+	grid-area: item_4;
+	background-color: rgb(253, 233, 217);
+}
+.item_5 {
+	grid-area: item_5;
+	background-color: rgb(234, 241, 221);
+}
+.main {
+	grid-area: main;
+    background-color: green;
+    display: grid;
+    grid: auto;
+    grid-template-areas:
+    	'item_2 item_3 item_3 item_4'
+    	'item_2 item_3 item_3 item_4'
+    	'item_2 item_3 item_3 item_4'
+    	'item_2 item_3 item_3 item_4'
+    	'item_5 item_5 item_5 item_4';
+}
+
+
+.footer {
+	grid-area: footer;
+	background-color: rgb(198, 217, 241);
+	padding: 16px;
+}
+
+
+.grid_wrapper {
+	display: grid;
+	height: 100%;
+	background-color: black;
+	grid: auto;
+	grid-template-areas: 
+		'header header header header header'
+		'main main main main main'
+		'main main main main main'
+		'main main main main main'
+		'footer footer footer footer footer';
+}
