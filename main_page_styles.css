@@ -53,22 +53,22 @@ header>p{
 	background-color: rgb(253, 233, 217);
 }
 .section3 {
-	    width: 60%;
+	width: 60%;
     background-color: white;
     display: flex;
     align-items: flex-end;
+    align-content: space-around;
     flex-wrap: wrap;
 }
 .preview_img{
 	position: relative;
 	display: block-inline;
 	margin-left: auto;
-	height: 49%;
-	width: 49%;
+	max-width: 100%;
 	max-height: 300px;
 }
 .section5 {
-	flex: 1;
+	flex: 0;
 	width: 100%;
 	background-color: rgb(234, 241, 221);
 }
