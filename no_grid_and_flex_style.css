@@ -3,6 +3,9 @@ html, body {
 	font-size: 3vmin;
 }
 
+.header>td, .footer>td {
+	padding: 16px;
+}
 .wraper, .main{
 	height: 100%;
 	width: 100%;
