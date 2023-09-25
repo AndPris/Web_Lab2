@@ -29,6 +29,9 @@ td{
 	background-color: rgb(253, 233, 217);
 	padding-right: 16px;
 }
+.item4 {
+	padding-left: 16px;
+}
 .item2>ol, .item4>*{
 	float: right;
 }
