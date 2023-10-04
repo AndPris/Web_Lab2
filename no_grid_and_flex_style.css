@@ -6,13 +6,17 @@ html, body {
 .header>td, .footer>td {
 	padding: 16px;
 }
-.wraper, .main{
-	height: 100%;
+.header, .main, .footer{
 	width: 100%;
 	border-spacing: 0;
 	border-collapse: collapse;
 }
-
+.main {
+	height: 60%;
+}
+.right {
+	text-align: right;
+}
 td{
 	border: 1px solid black;
 	width: 25%;
@@ -24,6 +28,9 @@ td{
 .pwraper {
 	width: 75%;
 	padding-right: 16px;
+}
+.header_paragraph {
+	font-size: 2.25vmin;
 }
 .item2, .item4 {
 	background-color: rgb(253, 233, 217);

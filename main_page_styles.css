@@ -9,6 +9,7 @@
 }
 
 header, footer {
+/*	min-height: 17%;*/
     background-color: rgb(198, 217, 241);
 }
 
@@ -21,6 +22,7 @@ main {
 
 header>p{
 	font-size: 2.25vmin;
+	text-align: right;
 }
 
 .left-center{
@@ -49,11 +51,11 @@ header>p{
 	display: flex;
 }
 .section2 {
-	width: 40%;
+	width: 42%;
 	background-color: rgb(253, 233, 217);
 }
 .section3 {
-	width: 60%;
+	width: 58%;
     background-color: white;
     display: flex;
     align-items: flex-end;
@@ -87,6 +89,7 @@ header>p{
     justify-content: center;
     align-items: flex-end;
     padding-right: 32px;
+    box-sizing: border-box;
 }
 
 
